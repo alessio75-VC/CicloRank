@@ -64,8 +64,13 @@ CicloRank automatically saves a temporary session file (`sessione_temp.json`) af
 
 - **Download pronto all'uso:** Vai alla pagina **[Releases](https://github.com/alessio75/CicloRank/releases/latest)**, scarica il file `.zip`, estrailo in una cartella e avvia `CicloRank.exe` (al primo avvio, se compare l'avviso di Windows SmartScreen, clicca su *Ulteriori informazioni* → *Esegui comunque*).
 - **Funzionalità principali:** Importazione iscritti da `.xlsx`, `.csv` e `.txt` senza bisogno di Excel installato (con numerazione progressiva automatica se manca la colonna pettorali e segnalazione di eventuali doppioni), rilevamento passaggi da tastiera con anteprima immediata dell'atleta, correzione rapida degli ultimi 3 passaggi o direttamente in tabella, azzeramento rapido (**AZZERA DATI**) per avviare nuove batterie mantenendo l'elenco iscritti in memoria, salvataggio automatico anti-crash, classifiche assolute e per categoria esportabili in `.xlsx` (con tutti i parziali giro per giro) e `.pdf` (con classifica assoluta automatica se nessuna categoria è valorizzata), tema Chiaro/Scuro e interfaccia in 11 lingue.
-
+* **Sviluppo trasparente:** Il progetto è stato realizzato tramite *vibe-coding* (sviluppo assistito da AI) con particolare attenzione alla sicurezza dei dati in gara tramite salvataggio continuo in locale; l'intero codice sorgente è pubblico e ispezionabile in questa repository.
 ---
+## Development & Transparency
+
+CicloRank was built using **vibe-coding** (AI-assisted development) to solve a practical problem for grassroots races that cannot afford electronic transponder systems. 
+
+To ensure reliability in real race conditions despite the rapid development workflow, the software is designed around data safety—automatically saving every single lap to `sessione_temp.json`—and the full source code is openly available in this repository for anyone to inspect, audit, or improve.
 
 ## Support & License
 
