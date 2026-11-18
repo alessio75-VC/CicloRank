@@ -14,7 +14,7 @@ CicloRank is built for cycling clubs, race officials, and event organizers-espec
 
 If you want to run CicloRank immediately without compiling the source code:
 
-1. Open the **[Latest Release page](https://github.com/alessio75/CicloRank/releases/latest)**.
+1. Open the **[Latest Release page](https://github.com/alessio75-VC/CicloRank/releases/latest)**.
 2. Download the `.zip` archive from the **Assets** section.
 3. Extract all files into a folder on your PC and double-click `CicloRank.exe`.
 
